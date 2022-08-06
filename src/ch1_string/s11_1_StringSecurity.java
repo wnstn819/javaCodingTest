@@ -1,6 +1,5 @@
 package ch1_string;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class s11_1_StringSecurity {
@@ -17,11 +16,13 @@ public class s11_1_StringSecurity {
     }
 
     public String solution(int n, String s) {
-        String[] str = new String[n];
-        System.out.println(s);
+
+        StringBuilder result = new StringBuilder();
+
         for (int i = 0; i < n; i++) {
             String tmp = s.substring(0, 7);
             StringBuilder ctmp = new StringBuilder();
+
             for (char c : tmp.toCharArray()) {
                 if (c == '#') {
                     ctmp.append("1");
@@ -30,14 +31,12 @@ public class s11_1_StringSecurity {
                 }
 
             }
-            System.out.println("2223 " + (Integer.parseInt(ctmp.toString())));
-            System.out.println("222 " + Integer.parseInt(Integer.toHexString(Integer.parseInt(ctmp.toString())), 16));
-            str[i] = tmp;
             if (i != n - 1) {
                 s = s.substring(7);
             }
+            result.append((char) Integer.parseInt(Integer.toHexString(Integer.parseInt(ctmp.toString(), 2)), 16));
         }
-        return Arrays.toString(str);
+        return result.toString();
 
 
     }
