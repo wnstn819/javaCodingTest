@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 
 class Main {
 
-    //git Test
+    //git Test2
     static int Sol(int[][] arr) {
         int result = 0;
 
