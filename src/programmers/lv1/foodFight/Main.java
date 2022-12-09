@@ -1,5 +1,7 @@
 package programmers.lv1.foodFight;
 
+//푸드 파이트 대회
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
