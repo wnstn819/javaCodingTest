@@ -1,6 +1,6 @@
 // DFS와 BFS
 
-package solved.S.S2.S2_1260_doit;
+package solved.S.S2.S2_1260_doit_DFS_BFS;
 
 import java.io.*;
 import java.util.*;
