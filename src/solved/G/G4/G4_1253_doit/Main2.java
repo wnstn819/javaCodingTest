@@ -1,4 +1,4 @@
-package solved.G.G4_1253_doit;
+package solved.G.G4.G4_1253_doit;
 
 import java.io.BufferedReader;
 import java.io.IOException;

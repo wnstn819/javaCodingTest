@@ -1,6 +1,6 @@
 // 수를 묶어서 최댓값 만들기 - 우선순위 큐
 
-package solved.G.G4_1744_doit;
+package solved.G.G4.G4_1744_doit;
 
 import java.io.*;
 import java.util.*;

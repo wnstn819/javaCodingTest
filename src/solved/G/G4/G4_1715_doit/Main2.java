@@ -1,6 +1,6 @@
 // 카드 정렬하기 - 우선 순위 큐
 
-package solved.G.G4_1715_doit;
+package solved.G.G4.G4_1715_doit;
 
 import java.io.*;
 import java.util.*;

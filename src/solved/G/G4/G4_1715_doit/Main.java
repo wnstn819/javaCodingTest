@@ -1,4 +1,4 @@
-package solved.G.G4_1715_doit;
+package solved.G.G4.G4_1715_doit;
 
 import java.io.*;
 import java.util.*;
@@ -29,6 +29,6 @@ public class Main {
         }
 
         System.out.println(sum);
-        
+
     }
 }
