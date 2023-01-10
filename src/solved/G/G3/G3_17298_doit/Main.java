@@ -1,5 +1,5 @@
 //오큰수 구하기
-package solved.G.G3_17298_doit;
+package solved.G.G3.G3_17298_doit;
 
 
 import java.io.*;
