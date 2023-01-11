@@ -1,6 +1,6 @@
 //k번째 수
 
-package solved.G.G2_1300_doit;
+package solved.G.G2.G2_1300_doit;
 
 import java.io.*;
 import java.util.*;
