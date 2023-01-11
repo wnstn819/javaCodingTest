@@ -1,6 +1,6 @@
 // 버블소트1
 
-package solved.G.G2.G2_1377_doit;
+package solved.G.G2_1377_doit;
 
 import java.io.*;
 import java.util.*;
